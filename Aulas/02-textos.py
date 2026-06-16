@@ -41,3 +41,10 @@ print(nome_usuario)
 email = email.lower()
 email = email.replace("@gmail.com", "@yahoo.com")
 print(email)
+
+# title, capitalize, upper
+nome = "delson mafumo"
+print(nome.capitalize()) # coloca 1ªletra maiuscula
+print(nome.title()) # coloca 1ªletra de cada palavra maiuscula
+print(nome.upper()) # coloca todas letra maiusculas
+print(nome)
