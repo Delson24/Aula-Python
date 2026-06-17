@@ -52,14 +52,14 @@ print(lista_precos)
 lista_precos.remove(3000)
 print(lista_precos)
 
-# juntr duas listas
+# juntar duas listas
 novas_contratacoes = ["Sbung", "Carlos"]
 lista_nomes.extend(novas_contratacoes)
 print(lista_nomes)
 
 # Ordenar uma lista
 lista_precos.sort()
-print(lista_precos)
+print(lista_precos) 
 
 # Ordenar uma lista em ordem decrescente
 lista_precos.sort(reverse=True)
