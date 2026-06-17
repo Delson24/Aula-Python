@@ -1,0 +1,66 @@
+lista_nomes = ["Delson", "Gerson", "Ivandro", "Carolina", "Valter"]
+
+# imprime tamanho da lista
+print(len(lista_nomes))
+
+# pegar um item da lista - sempre pela posiçao do elemento
+primeiro_elemento = lista_nomes[0]
+print(primeiro_elemento)
+
+# encontrar um item na lista
+existe_na_lista = "Carolina" in lista_nomes
+print(existe_na_lista)
+
+# encontrar posicao de um elemento
+posicao_na_lista = lista_nomes.index("Carolina")
+print(posicao_na_lista)
+
+
+# Outro exemplo
+lista_vendas = [100, 200, 50, 460, 300]
+
+# total de vendas
+total_vendas = sum(lista_vendas)
+print("total de vendas foi", total_vendas)
+
+# maior valor
+maior_valor = max(lista_vendas)
+
+# menor valor
+menor_valor = min(lista_vendas)
+
+# media de vendas
+media_vendas = total_vendas / len(lista_vendas)
+
+print("Maior valor", maior_valor)
+print("Menos valor", menor_valor)
+print("Media de vendas", media_vendas)
+
+
+# Outro exemplo
+lista_precos = [5000, 3000, 2000]
+
+# editar um valor da lista
+lista_precos[0] = lista_precos[0] * 1.1
+print(lista_precos)
+
+# Adicionar um elemento a lista
+lista_precos.append(600)
+print(lista_precos)
+
+# Remover um elemento da lista
+lista_precos.remove(3000)
+print(lista_precos)
+
+# juntr duas listas
+novas_contratacoes = ["Sbung", "Carlos"]
+lista_nomes.extend(novas_contratacoes)
+print(lista_nomes)
+
+# Ordenar uma lista
+lista_precos.sort()
+print(lista_precos)
+
+# Ordenar uma lista em ordem decrescente
+lista_precos.sort(reverse=True)
+print(lista_precos)
