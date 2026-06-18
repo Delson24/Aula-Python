@@ -11,9 +11,9 @@ nome_produto = input("digite o nome do produto: ")
 print(nome_produto)
 
 novo_preco = precos
-novo_preco = input("digite o preco do produto")
+novo_preco = input("digite o preco do produto: ")
 print(novo_preco)
 
-preco = input("degite o preco")
+preco = input("degite o novo preco: ")
 preco = novo_preco.replace(precos, novo_preco)
 print(novo_preco)
