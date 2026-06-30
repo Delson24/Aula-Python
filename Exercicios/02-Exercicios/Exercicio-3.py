@@ -2,10 +2,11 @@
 
 email = "andre_silva@empresa.com.br"
 pedaco_email = "@grupocorp.com"
-posicao = email.find("@")
+posicao = email.find("@") # encontrar posicao de um elemento do email
 print(posicao)
 
-nome = email[:posicao]
+
+nome = email[:posicao] # substituir o elemento apartir da posicao encontrada
 print(nome)
 
 novo_email = nome + pedaco_email
